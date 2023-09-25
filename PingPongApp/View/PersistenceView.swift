@@ -1,5 +1,5 @@
 //
-//  PersistanceView.swift
+//  PersistenceView.swift
 //  PingPongApp
 //
 //  Created by Mnatsakan Work on 25.09.23.
@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-struct PersistanceView: View {
+struct PersistenceView: View {
     let dataManager = PersistableDataManager()
     
     @ObservedResults(PersistableData.self) var scores
@@ -38,6 +38,6 @@ struct PersistanceView: View {
 
 struct PersistanceView_Previews: PreviewProvider {
     static var previews: some View {
-        PersistanceView()
+        PersistenceView()
     }
 }

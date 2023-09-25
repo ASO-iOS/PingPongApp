@@ -23,7 +23,7 @@
 		588611262AC1C5D20033A5F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 588611252AC1C5D20033A5F4 /* Realm */; };
 		588611282AC1C5D20033A5F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 588611272AC1C5D20033A5F4 /* RealmSwift */; };
 		5886112B2AC1C6390033A5F4 /* PersistableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112A2AC1C6390033A5F4 /* PersistableData.swift */; };
-		5886112D2AC1C76B0033A5F4 /* PersistanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112C2AC1C76B0033A5F4 /* PersistanceView.swift */; };
+		5886112D2AC1C76B0033A5F4 /* PersistenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */; };
 		5886112F2AC1CA1C0033A5F4 /* PersistableDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112E2AC1CA1B0033A5F4 /* PersistableDataManager.swift */; };
 		8402C4982AC17C8400DCFD90 /* PingPongAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402C4972AC17C8400DCFD90 /* PingPongAppApp.swift */; };
 		8402C49A2AC17C8400DCFD90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402C4992AC17C8400DCFD90 /* ContentView.swift */; };
@@ -46,7 +46,7 @@
 		5886111E2AC1B3500033A5F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		588611202AC1B7A90033A5F4 /* StartGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameView.swift; sourceTree = "<group>"; };
 		5886112A2AC1C6390033A5F4 /* PersistableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableData.swift; sourceTree = "<group>"; };
-		5886112C2AC1C76B0033A5F4 /* PersistanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceView.swift; sourceTree = "<group>"; };
+		5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceView.swift; sourceTree = "<group>"; };
 		5886112E2AC1CA1B0033A5F4 /* PersistableDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableDataManager.swift; sourceTree = "<group>"; };
 		8402C4942AC17C8400DCFD90 /* PingPongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8402C4972AC17C8400DCFD90 /* PingPongAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongAppApp.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				8402C4992AC17C8400DCFD90 /* ContentView.swift */,
 				5886111C2AC1B17B0033A5F4 /* GameSceneView.swift */,
 				588611202AC1B7A90033A5F4 /* StartGameView.swift */,
-				5886112C2AC1C76B0033A5F4 /* PersistanceView.swift */,
+				5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 				588611192AC17F130033A5F4 /* ScreenData.swift in Sources */,
 				5886112F2AC1CA1C0033A5F4 /* PersistableDataManager.swift in Sources */,
 				588611182AC17F130033A5F4 /* ScreenRoute.swift in Sources */,
-				5886112D2AC1C76B0033A5F4 /* PersistanceView.swift in Sources */,
+				5886112D2AC1C76B0033A5F4 /* PersistenceView.swift in Sources */,
 				5886111F2AC1B3500033A5F4 /* GameScene.swift in Sources */,
 				588611212AC1B7A90033A5F4 /* StartGameView.swift in Sources */,
 				588611132AC17F130033A5F4 /* NavRouterView.swift in Sources */,
