@@ -20,7 +20,7 @@ struct TabNavigationView: View {
             }), content: {
                 StartGameView(router: router)
                     .tag(TabNavRoutes.mainView)
-                Text("Stat View")
+                PersistanceView()
                     .tag(TabNavRoutes.statisticsView)
                 Text("News View")
                     .tag(TabNavRoutes.newsView)
