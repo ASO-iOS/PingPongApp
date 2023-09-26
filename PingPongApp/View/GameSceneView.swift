@@ -21,13 +21,7 @@ struct GameSceneView: View {
     var body: some View {
         SpriteView(scene: scene)
             .ignoresSafeArea()
-//        Button("Sprite View") {
-//            withAnimation(.easeInOut) {
-//                router.route = .tabView
-//            }
-//        }
-//        .buttonStyle(.bordered)
-//        .font(.largeTitle)
+            .transition(router.route?.screen.transition ?? .identity)
     }
 }
 

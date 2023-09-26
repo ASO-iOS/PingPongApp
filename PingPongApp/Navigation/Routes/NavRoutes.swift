@@ -5,18 +5,18 @@
 //  Created by admin on 28.08.2023.
 //
 
-import Foundation
+import SwiftUI
 
 enum NavRoutes: ScreenRoute {
-    case tabView
+    case mainView
     case gameScene
     
     var screen: ScreenData<NavRoutes> {
         switch self {
-        case .tabView:
-            return ScreenData(title: "Tab", icon: "", destination: .tabView)
+        case .mainView:
+            return ScreenData(title: "Main", icon: "", transition: .scale, destination: .mainView)
         case .gameScene:
-            return ScreenData(title: "Game Scene", icon: "", destination: .gameScene)
+            return ScreenData(title: "Game Scene", icon: "", transition: .move(edge: .bottom), destination: .gameScene)
         }
     }
 }

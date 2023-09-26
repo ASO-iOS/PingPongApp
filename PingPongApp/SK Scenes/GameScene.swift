@@ -31,7 +31,7 @@ final class GameScene: SKScene {
         // Check if the location of the touch is within the button's bounds
         if button.contains(location) {
             withAnimation {
-                router.route = .tabView
+                router.route = .mainView
             }
         }
     }

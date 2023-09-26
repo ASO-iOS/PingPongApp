@@ -8,19 +8,16 @@
 import SwiftUI
 
 struct NavRouterView: View {
-    @ObservedObject var router = NavRouter<NavRoutes>(route: .tabView)
-    @ObservedObject var tabRouter = NavRouter<TabNavRoutes>(route: .mainView)
+    @ObservedObject var router = NavRouter<NavRoutes>(route: .mainView)
     var body: some View {
         ZStack {
             switch router.route {
-            case .tabView:
-                TabNavigationView(router: router, tabRouter: tabRouter)
+            case .mainView:
+                StartGameView(router: router)
                     .zIndex(1)
-                    .transition(.opacity)
             case .gameScene:
                 GameSceneView(router: router)
                     .zIndex(2)
-                    .transition(.move(edge: .bottom))
             default:
                 Text("!")
             }

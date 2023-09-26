@@ -11,12 +11,16 @@ struct StartGameView: View {
     @ObservedObject var router: NavRouter<NavRoutes>
     
     var body: some View {
-        Button("Start Game") {
-            withAnimation(.easeInOut) {
-                router.route = .gameScene
+        VStack {
+            PersistenceView()
+            Button("Start Game") {
+                withAnimation(.easeInOut) {
+                    router.route = .gameScene
+                }
             }
+            .buttonStyle(.borderedProminent)
         }
-        .buttonStyle(.borderedProminent)
+        .transition(router.route?.screen.transition ?? .identity)
     }
 }
 
