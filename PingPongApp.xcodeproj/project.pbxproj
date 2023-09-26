@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		588611122AC17F130033A5F4 /* NavRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588611042AC17F130033A5F4 /* NavRouter.swift */; };
+		588611132AC17F130033A5F4 /* NavRouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588611062AC17F130033A5F4 /* NavRouterView.swift */; };
+		588611172AC17F130033A5F4 /* NavRouteStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886110B2AC17F130033A5F4 /* NavRouteStack.swift */; };
+		588611182AC17F130033A5F4 /* ScreenRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886110D2AC17F130033A5F4 /* ScreenRoute.swift */; };
+		588611192AC17F130033A5F4 /* ScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886110E2AC17F130033A5F4 /* ScreenData.swift */; };
+		5886111A2AC17F130033A5F4 /* NavRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588611102AC17F130033A5F4 /* NavRoutes.swift */; };
+		5886111D2AC1B17B0033A5F4 /* GameSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886111C2AC1B17B0033A5F4 /* GameSceneView.swift */; };
+		5886111F2AC1B3500033A5F4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886111E2AC1B3500033A5F4 /* GameScene.swift */; };
+		588611212AC1B7A90033A5F4 /* StartGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588611202AC1B7A90033A5F4 /* StartGameView.swift */; };
+		588611262AC1C5D20033A5F4 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 588611252AC1C5D20033A5F4 /* Realm */; };
+		588611282AC1C5D20033A5F4 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 588611272AC1C5D20033A5F4 /* RealmSwift */; };
+		5886112B2AC1C6390033A5F4 /* PersistableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112A2AC1C6390033A5F4 /* PersistableData.swift */; };
+		5886112D2AC1C76B0033A5F4 /* PersistenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */; };
+		5886112F2AC1CA1C0033A5F4 /* PersistableDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886112E2AC1CA1B0033A5F4 /* PersistableDataManager.swift */; };
 		8402C4982AC17C8400DCFD90 /* PingPongAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402C4972AC17C8400DCFD90 /* PingPongAppApp.swift */; };
 		8402C49A2AC17C8400DCFD90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402C4992AC17C8400DCFD90 /* ContentView.swift */; };
 		8402C49C2AC17C8600DCFD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8402C49B2AC17C8600DCFD90 /* Assets.xcassets */; };
@@ -14,6 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		588611042AC17F130033A5F4 /* NavRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRouter.swift; sourceTree = "<group>"; };
+		588611062AC17F130033A5F4 /* NavRouterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRouterView.swift; sourceTree = "<group>"; };
+		5886110B2AC17F130033A5F4 /* NavRouteStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRouteStack.swift; sourceTree = "<group>"; };
+		5886110D2AC17F130033A5F4 /* ScreenRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenRoute.swift; sourceTree = "<group>"; };
+		5886110E2AC17F130033A5F4 /* ScreenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenData.swift; sourceTree = "<group>"; };
+		588611102AC17F130033A5F4 /* NavRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavRoutes.swift; sourceTree = "<group>"; };
+		5886111C2AC1B17B0033A5F4 /* GameSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneView.swift; sourceTree = "<group>"; };
+		5886111E2AC1B3500033A5F4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		588611202AC1B7A90033A5F4 /* StartGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameView.swift; sourceTree = "<group>"; };
+		5886112A2AC1C6390033A5F4 /* PersistableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableData.swift; sourceTree = "<group>"; };
+		5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceView.swift; sourceTree = "<group>"; };
+		5886112E2AC1CA1B0033A5F4 /* PersistableDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistableDataManager.swift; sourceTree = "<group>"; };
 		8402C4942AC17C8400DCFD90 /* PingPongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8402C4972AC17C8400DCFD90 /* PingPongAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongAppApp.swift; sourceTree = "<group>"; };
 		8402C4992AC17C8400DCFD90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +52,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588611282AC1C5D20033A5F4 /* RealmSwift in Frameworks */,
+				588611262AC1C5D20033A5F4 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		588611032AC17F130033A5F4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				588611042AC17F130033A5F4 /* NavRouter.swift */,
+				588611052AC17F130033A5F4 /* View */,
+				5886110A2AC17F130033A5F4 /* Stack */,
+				5886110C2AC17F130033A5F4 /* Data */,
+				5886110F2AC17F130033A5F4 /* Routes */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		588611052AC17F130033A5F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				588611062AC17F130033A5F4 /* NavRouterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5886110A2AC17F130033A5F4 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				5886110B2AC17F130033A5F4 /* NavRouteStack.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		5886110C2AC17F130033A5F4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5886110D2AC17F130033A5F4 /* ScreenRoute.swift */,
+				5886110E2AC17F130033A5F4 /* ScreenData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5886110F2AC17F130033A5F4 /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				588611102AC17F130033A5F4 /* NavRoutes.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		588611222AC1C0B00033A5F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8402C4992AC17C8400DCFD90 /* ContentView.swift */,
+				5886111C2AC1B17B0033A5F4 /* GameSceneView.swift */,
+				588611202AC1B7A90033A5F4 /* StartGameView.swift */,
+				5886112C2AC1C76B0033A5F4 /* PersistenceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		588611232AC1C0C60033A5F4 /* SK Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5886111E2AC1B3500033A5F4 /* GameScene.swift */,
+			);
+			path = "SK Scenes";
+			sourceTree = "<group>";
+		};
+		588611292AC1C6280033A5F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5886112A2AC1C6390033A5F4 /* PersistableData.swift */,
+				5886112E2AC1CA1B0033A5F4 /* PersistableDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8402C48B2AC17C8400DCFD90 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +152,11 @@
 		8402C4962AC17C8400DCFD90 /* PingPongApp */ = {
 			isa = PBXGroup;
 			children = (
+				588611292AC1C6280033A5F4 /* Model */,
+				588611232AC1C0C60033A5F4 /* SK Scenes */,
+				588611222AC1C0B00033A5F4 /* View */,
+				588611032AC17F130033A5F4 /* Navigation */,
 				8402C4972AC17C8400DCFD90 /* PingPongAppApp.swift */,
-				8402C4992AC17C8400DCFD90 /* ContentView.swift */,
 				8402C49B2AC17C8600DCFD90 /* Assets.xcassets */,
 				8402C49D2AC17C8600DCFD90 /* Preview Content */,
 			);
@@ -83,6 +187,10 @@
 			dependencies = (
 			);
 			name = PingPongApp;
+			packageProductDependencies = (
+				588611252AC1C5D20033A5F4 /* Realm */,
+				588611272AC1C5D20033A5F4 /* RealmSwift */,
+			);
 			productName = PingPongApp;
 			productReference = 8402C4942AC17C8400DCFD90 /* PingPongApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +219,9 @@
 				Base,
 			);
 			mainGroup = 8402C48B2AC17C8400DCFD90;
+			packageReferences = (
+				588611242AC1C5D10033A5F4 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 8402C4952AC17C8400DCFD90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +248,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5886111A2AC17F130033A5F4 /* NavRoutes.swift in Sources */,
+				588611172AC17F130033A5F4 /* NavRouteStack.swift in Sources */,
 				8402C49A2AC17C8400DCFD90 /* ContentView.swift in Sources */,
+				5886111D2AC1B17B0033A5F4 /* GameSceneView.swift in Sources */,
+				588611122AC17F130033A5F4 /* NavRouter.swift in Sources */,
+				5886112B2AC1C6390033A5F4 /* PersistableData.swift in Sources */,
 				8402C4982AC17C8400DCFD90 /* PingPongAppApp.swift in Sources */,
+				588611192AC17F130033A5F4 /* ScreenData.swift in Sources */,
+				5886112F2AC1CA1C0033A5F4 /* PersistableDataManager.swift in Sources */,
+				588611182AC17F130033A5F4 /* ScreenRoute.swift in Sources */,
+				5886112D2AC1C76B0033A5F4 /* PersistenceView.swift in Sources */,
+				5886111F2AC1B3500033A5F4 /* GameScene.swift in Sources */,
+				588611212AC1B7A90033A5F4 /* StartGameView.swift in Sources */,
+				588611132AC17F130033A5F4 /* NavRouterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +462,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		588611242AC1C5D10033A5F4 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		588611252AC1C5D20033A5F4 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588611242AC1C5D10033A5F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		588611272AC1C5D20033A5F4 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 588611242AC1C5D10033A5F4 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8402C48C2AC17C8400DCFD90 /* Project object */;
 }
